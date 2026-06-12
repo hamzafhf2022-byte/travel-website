@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel website</title>
+ 
+    <style>
+*{
+ margin: 0;   
+padding: 0;
+box-sizing: border-box;
+font-family: Arial,  sans-serif;
+}
+
+body{
+    background: #f9ecc4;
+}
+
+/*Navaber*/
+nav{
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 50px;    
+background: #0d47a1;
+color: white;
+}
+
+nav ul{
+display: flex;
+list-style: none;
+gap: 20px;
+}
+
+nav ul li a{
+    color: #f6f6f6;
+    text-decoration: none;
+
+font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:white;
+}
+
+.hero {
+    height: 90vh;
+    background: url("photo-1507525428034-b723cf961d3e.avif") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f6f6f6;
+}
+
+
+.hero h1{
+font-size: 60px;
+margin-bottom: 15px;
+
+}
+
+.hero p{
+font-size: 22px;
+margin-bottom: 15px;
+
+}
+
+.hero button{
+padding: 12px 25px;
+border: none;
+background: #c49a6c;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.hero button:hover{
+    background: #a67c52;
+}
+
+.menu{
+padding: 60px 20px;
+text-align: center;
+}
+
+.menu h2{
+    margin-bottom: 30px;
+}
+
+.cards{
+display: flex;
+justify-content:center ;
+flex-wrap: wrap;
+gap: 20px;
+}
+.card{
+background: white;
+width: 250px; 
+padding: 20px; 
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+transition: 0.3s;
+}
+
+.card:hover{
+transform: translateY(-10px);
+}
+
+.card img{
+width: 100%;
+border-radius:10px ;
+}
+
+.card h3{
+margin: 15px 0; 
+}
+
+.about{
+padding: 60px 20px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    
+
+<nav>
+    <h2>Travel</h2>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div>
+        <h1>Explore The World</h1>
+        <p>Find your next adventure</p>
+        <button>Book Now</button>
+    </div>
+</section>
+
+<section class="menu">
+    <h2>Popular Destinations</h2>
+
+    <div class="cards">
+        <div class="card">
+            <img src="travel1.jpg" alt="">
+            <h3>Paris</h3>
+            <p>City of Lights</p>
+        </div>
+
+        <div class="card">
+            <img src="travel2.jpg" alt="">
+            <h3>Dubai</h3>
+            <p>Luxury & Adventure</p>
+        </div>
+
+        <div class="card">
+            <img src="travel3.jpg" alt="">
+            <h3>Maldives</h3>
+            <p>Beautiful Beaches</p>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
